@@ -18,7 +18,7 @@ Convert and edit subtitles and captions.
 
 ## Installation
 ```
-composer require yanosh-k/ php-subtitles-convertor
+composer require yanosh-k/php-subtitles-convertor
 ```
 
 ## Usage

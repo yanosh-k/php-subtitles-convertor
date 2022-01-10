@@ -1,5 +1,5 @@
 {
-    "name": "yanosh-k/subtitles",
+    "name": "yanosh-k/php-subtitles-convertor",
     "description": "Subtitle converter and generator for PHP",
     "type": "library",
     "minimum-stability": "dev",

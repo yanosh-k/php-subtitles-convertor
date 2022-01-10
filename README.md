@@ -1,5 +1,3 @@
-[![Build Status](https://scrutinizer-ci.com/g/mantas-done/subtitles/badges/build.png?b=master)](https://scrutinizer-ci.com/g/mantas-done/subtitles/build-status/master)
-
 # Caption And Subtitle Converter for PHP
 
 Convert and edit subtitles and captions.
@@ -20,7 +18,7 @@ Convert and edit subtitles and captions.
 
 ## Installation
 ```
-composer require mantas-done/subtitles
+composer require yanosh-k/ php-subtitles-convertor
 ```
 
 ## Usage
@@ -119,8 +117,8 @@ Basically what your implementation should be able to do, is convert subtitle fil
 
 "Internal library's" format is used like middle ground, to be able to convert between different formats.
 
-Best example is to look how [SrtConverter.php](https://github.com/mantas783/subtitle-converter/blob/master/src/code/Converters/SrtConverter.php) is implemented.  
-And this is example of [.srt file](https://github.com/mantas783/subtitle-converter/blob/master/tests/files/srt.srt).
+Best example is to look how [SrtConverter.php](https://github.com/yanosh-k/php-subtitles-convertor/blob/master/src/code/Converters/SrtConverter.php) is implemented.  
+And this is example of [.srt file](https://github.com/yanosh-k/php-subtitles-convertor/blob/master/tests/files/srt.srt).
 
 ### "Internal Format" 
 
@@ -171,7 +169,7 @@ You can contribute in any way you want. If you need some guidance, choose someth
 | Task | Difficulty | Description |
 | --- | --- | --- |
 | Add new formats | Medium | Supporting more formats is nice. Some popular formats: .mcc, .cap |
-| Refactor [StlConverter.php](https://github.com/mantas783/subtitle-converter/blob/master/src/code/Converters/StlConverter.php) file | Easy | .stl format is very similar to .srt. The only problem is that StlConverter.php code can be simplified a lot (check [SrtConverter.php](https://github.com/mantas783/subtitle-converter/blob/master/src/code/Converters/SrtConverter.php) as example) |
+| Refactor [StlConverter.php](https://github.com/yanosh-k/php-subtitles-convertor/blob/master/src/code/Converters/StlConverter.php) file | Easy | .stl format is very similar to .srt. The only problem is that StlConverter.php code can be simplified a lot (check [SrtConverter.php](https://github.com/yanosh-k/php-subtitles-convertor/blob/master/src/code/Converters/SrtConverter.php) as example) |
 | Add .scc format | Hard | [Format description](https://en.wikipedia.org/wiki/EIA-608) |
 
 For now library should support only basic features (several lines of text). No need to support different text styles or positioning of text.

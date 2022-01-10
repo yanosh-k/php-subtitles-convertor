@@ -100,7 +100,7 @@ class DfxpConverter implements ConverterContract
 		<div xml:space="preserve">
 			
 			
-			@@SUBTITLES GO HERE
+@@SUBTITLES GO HERE
 			
 			
 		</div>
